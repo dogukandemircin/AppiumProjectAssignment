@@ -1,0 +1,39 @@
+Created by testinium on 26.12.2022
+
+This is a concept file with following syntax for each concept.
+
+#Uygulama açıldı mı kontrolü
+*"com.m.qr:id/action_bar_root" 'li id element görünüyor mu
+
+#Menüden Book seçeneğine git
+* "com.m.qr:id/nav_menu_book" li elemente tıkla
+
+#One-way seçeneğine tıkla
+* "//android.widget.LinearLayout[@content-desc='One-way']" xpath li elemente tıkla
+
+#Kalkış havalimanı seçimi yap
+*"com.m.qr:id/rvmp_fragment_rtow_flight_selection_origin_holder" li elemente tıkla
+*"com.m.qr:id/rvmp_fragment_ond_selection_filter_edittext" li elemente "Berlin" text değerini yaz
+*"//*[@resource-id='com.m.qr:id/rvmp_fragment_ond_selection_stations_list']/android.view.ViewGroup[1]/android.widget.LinearLayout" xpath li elemente tıkla
+
+#Varış havalimanı seçimi yap
+*"com.m.qr:id/rvmp_fragment_rtow_flight_selection_destination_holder" li elemente tıkla
+*"com.m.qr:id/rvmp_fragment_ond_selection_filter_edittext" li elemente "Istanbul" text değerini yaz
+*"//*[@resource-id='com.m.qr:id/rvmp_fragment_ond_selection_stations_list']/android.view.ViewGroup[2]/android.widget.LinearLayout" xpath li elemente tıkla
+
+#Bugünün tarihinden 7 gün sonrasına gidiş tarihi seç
+*"com.m.qr:id/rvmp_fragment_rtow_flight_selection_departure_date_holder" li elemente tıkla
+*"4" saniye kadar bekle
+*"(//android.widget.TextView[@clickable='true'])[1]" xpath li elemente tıkla
+*"4" saniye kadar bekle
+*7 gün sonrasına tarih seç
+*"com.m.qr:id/fragment_calendar_confirm_button" li elemente tıkla
+
+#Ucus Ara Butonuna basılır
+*"com.m.qr:id/rvmp_booking_search_flights_button" li elemente tıkla
+
+#Rastgele uçuş seçimi
+* "//androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup" 'li uçuşlardan rastgele seç
+
+#Economy Class seçimi
+*"com.m.qr:id/rvmp_activity_flight_details_select_button" li elemente tıkla

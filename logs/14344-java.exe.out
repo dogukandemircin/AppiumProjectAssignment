@@ -1,0 +1,94 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+SLF4J: A number (12) of logging calls during the initialization phase have been intercepted and are
+SLF4J: now being replayed. These are subject to the filtering rules of the underlying logging system.
+SLF4J: See also http://www.slf4j.org/codes.html#replay
+{"logLevel":"debug","message":"gauge-java took 3502milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 3502"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 58611"}
+{"logLevel":"info","message":"Listening on port:58611"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.isDisplay' and 'StepImplementation.isDisplay'"}
+{"logLevel":"debug","message":"Found {} 'li id element görünüyor mu in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickByxpath' and 'StepImplementation.clickByxpath'"}
+{"logLevel":"debug","message":"Found {} xpath li elemente týkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickByid' and 'StepImplementation.clickByid'"}
+{"logLevel":"debug","message":"Found {} li elemente týkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.control' and 'StepImplementation.control'"}
+{"logLevel":"debug","message":"Found Uçuþ seçim ekraný kontrolü in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.plus7Days' and 'StepImplementation.plus7Days'"}
+{"logLevel":"debug","message":"Found 7 gün sonrasýna tarih seç in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.as' and 'StepImplementation.as'"}
+{"logLevel":"debug","message":"Found kontrol in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.waitForSecods' and 'StepImplementation.waitForSecods'"}
+{"logLevel":"debug","message":"Found {} saniye kadar bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.SkipCokkie' and 'StepImplementation.SkipCokkie'"}
+{"logLevel":"debug","message":"Found Tanýtým ekranýný geç in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.sendKeyId' and 'StepImplementation.sendKeyId'"}
+{"logLevel":"debug","message":"Found {} li elemente {} text deðerini yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.randomSelectFly' and 'StepImplementation.randomSelectFly'"}
+{"logLevel":"debug","message":"Found {} 'li uçuþlardan rastgele seç in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\t{} li elemente týkla : public void clickByid(String id)"}
+{"logLevel":"debug","message":"\t7 gün sonrasýna tarih seç : public void plus7Days()"}
+{"logLevel":"debug","message":"\t{} 'li id element görünüyor mu : public void isDisplay(String id)"}
+{"logLevel":"debug","message":"\t{} li elemente {} text deðerini yaz : public void sendKeyId(String id, String value)"}
+{"logLevel":"debug","message":"\tUçuþ seçim ekraný kontrolü : public void control() throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} saniye kadar bekle : public void waitForSecods(ýnt x) throws InterruptedException"}
+{"logLevel":"debug","message":"\tTanýtým ekranýný geç : public void SkipCokkie() throws InterruptedException"}
+{"logLevel":"debug","message":"\tkontrol : public void as()"}
+{"logLevel":"debug","message":"\t{} xpath li elemente týkla : public void clickByxpath(String xpath)"}
+{"logLevel":"debug","message":"\t{} 'li uçuþlardan rastgele seç : public void randomSelectFly(String xpath)"}
+!!!!!!!!!!! Localde test baþlýyor !!!!!!!!!!
+!!!!!!!!!!! Localde Android  testi baþlýyor !!!!!!!!!!
+Ara 26, 2022 9:47:57 ÖS io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} 'li id element görünüyor mu' using 'class StepImplementation.isDisplay"}
+2022-12-26 21:47:59,853 +03:00 INFO  StepImplementation:23 isDisplay - Uygulama Acildi.
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImplementation.waitForSecods"}
+{"logLevel":"debug","message":"Executing 'Tanýtým ekranýný geç' using 'class StepImplementation.SkipCokkie"}
+2022-12-26 21:48:03,998 +03:00 INFO  StepImplementation:36 SkipCokkie - Tanitim ekranlari gecildi
+Notification Bekleniyor
+Decline týklandý
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImplementation.waitForSecods"}
+{"logLevel":"debug","message":"Executing '{} li elemente týkla' using 'class StepImplementation.clickByid"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImplementation.waitForSecods"}
+{"logLevel":"debug","message":"Executing '{} xpath li elemente týkla' using 'class StepImplementation.clickByxpath"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImplementation.waitForSecods"}
+{"logLevel":"debug","message":"Executing '{} li elemente týkla' using 'class StepImplementation.clickByid"}
+{"logLevel":"debug","message":"Executing '{} li elemente {} text deðerini yaz' using 'class StepImplementation.sendKeyId"}
+{"logLevel":"debug","message":"Executing '{} xpath li elemente týkla' using 'class StepImplementation.clickByxpath"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImplementation.waitForSecods"}
+{"logLevel":"debug","message":"Executing '{} li elemente týkla' using 'class StepImplementation.clickByid"}
+{"logLevel":"debug","message":"Executing '{} li elemente {} text deðerini yaz' using 'class StepImplementation.sendKeyId"}
+{"logLevel":"debug","message":"Executing '{} xpath li elemente týkla' using 'class StepImplementation.clickByxpath"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImplementation.waitForSecods"}
+{"logLevel":"debug","message":"Executing '{} li elemente týkla' using 'class StepImplementation.clickByid"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImplementation.waitForSecods"}
+{"logLevel":"debug","message":"Executing '{} xpath li elemente týkla' using 'class StepImplementation.clickByxpath"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImplementation.waitForSecods"}
+{"logLevel":"debug","message":"Executing '7 gün sonrasýna tarih seç' using 'class StepImplementation.plus7Days"}
+2022-12-26 21:48:53,492 +03:00 INFO  StepImplementation:85 plus7Days - Takvimden tarih secimi basarili.
+{"logLevel":"debug","message":"Executing '{} li elemente týkla' using 'class StepImplementation.clickByid"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImplementation.waitForSecods"}
+{"logLevel":"debug","message":"Executing '{} li elemente týkla' using 'class StepImplementation.clickByid"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImplementation.waitForSecods"}
+{"logLevel":"debug","message":"Executing 'Uçuþ seçim ekraný kontrolü' using 'class StepImplementation.control"}
+2022-12-26 21:49:02,550 +03:00 INFO  StepImplementation:71 control - Ekran Acildi.
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImplementation.waitForSecods"}
+{"logLevel":"debug","message":"Executing '{} 'li uçuþlardan rastgele seç' using 'class StepImplementation.randomSelectFly"}
+random: 3
+2022-12-26 21:49:07,104 +03:00 INFO  StepImplementation:101 randomSelectFly - Herhangi bir ucus basariyla secildi.
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImplementation.waitForSecods"}
+{"logLevel":"debug","message":"Executing '{} li elemente týkla' using 'class StepImplementation.clickByid"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImplementation.waitForSecods"}
+{"logLevel":"debug","message":"Executing 'kontrol' using 'class StepImplementation.as"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}
